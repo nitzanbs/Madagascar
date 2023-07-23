@@ -1,4 +1,291 @@
 header{
-    background-color: aqua;
-    font-size: xx-large;
+    background-color :  rgb(213, 32, 32);
+    font-size: large;
+    opacity: 0.9;
+    max-height: 150px;
+
+}
+
+.img1{
+    border-color: black
+    border-image: none;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 4px;
+    height:100px;
+    width: 100px;
+    overflow: hidden;
+}
+h1{
+    color: rgb(237, 240, 33);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-left: 130px; 
+
+
+}
+h4{
+    color: rgb(226, 229, 232);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-left: 183px; 
+
+
+}
+
+
+.box1 {
+    margin: auto;
+    width: 50%;
+    border: 2px solid rgb(222, 28, 28);
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    border-radius: 3px;
+    opacity: 70%;
+
+    
+
+  }
+
+  .box1 ul {
+    text-align: left;
+    padding-left: 260px; 
+  }
+
+  .box4 {
+    margin: auto;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    border-radius: 3px;
+    opacity: 75%;
+
+  }
+
+  .oh{
+    color:rgb(248, 45, 22) ;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #434343, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  }
+
+  .box2{
+    font-size: x-large;
+  }
+
+  footer{
+    background-color :  rgb(213, 32, 32);
+    font-size: large;
+    border-radius: 30px;
+    text-align: center;
+    padding-bottom: 0%;
+    bottom:0;
+    width:100%;
+    opacity: 0.8;
+
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .button {
+    background : #fbe048;
+    border: .5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    color: #fff;
+    padding: 8px;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+
+  
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .logo {
+    float: left;
+    padding: 10px 0;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: -91px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 13px;
+  
+    position: relative;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+  nav a:hover {
+    color: #594c4c;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #fff700;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 200ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+footer a{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+
+footer a{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+
+  position: relative;
+
+}
+.back1{
+  background-image: url('https://www.schengenvisainfo.com/news/wp-content/uploads/2022/02/Barcelona-Spain.-Nighttime-top-view-at-Spanish-Square.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.back2{
+  background-image: url('spain-city-view.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.back3{
+  background-image: url('spain-city-view.webp');
+}
+.back4{
+  background-image: url('spain-city-view.webp');
+}
+
+
+.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  display: block;
+
+}
+
+
+.transbox  {
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;  
+
+  
+}
+
+.cont{
+  font-size: 50px;
+  color: solid #000;
+  text-align: center;
+  opacity: 100%;
+  margin: 582px;
+  font-weight: bold;
+
+}
+input, textarea {
+  opacity: 0.8;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #ffffff;
+  margin-left: 65px;
+  cursor: pointer;
+  margin-top: 1px;
+}
+
+
+.btn{
+  color: rgb(0, 0, 0);
+  background-color: rgb(167, 31, 31);
+  border-color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  color: #000000;
+  background-color: rgb(192, 201, 117);
+  border-color: #000;
+}
+
+
+.box8 {
+  float: left;
+  width: 55%;
+  margin-top: 6px;
+  padding: 1px;
+}
+
+.hdc{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #c81818, -1px 1px 0 #000, 1px 1px 0 #000;
+  opacity: 75%;
 }
